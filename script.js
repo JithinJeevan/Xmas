@@ -1,5 +1,7 @@
 //https://github.com/VincentGarreau/particles.js/
 
+var x = document.getElementById("myAudio");
+
 particlesJS("particles-js", {
     "particles": {
       "number": {
@@ -110,3 +112,19 @@ particlesJS("particles-js", {
     },
     "retina_detect": true
   });
+
+
+
+  
+
+
+function playAudio() { 
+    
+    x.play(); 
+    x.loop = true;
+} 
+
+function pauseAudio() { 
+    x.pause(); 
+    x.loop = false;
+} 

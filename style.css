@@ -301,3 +301,33 @@
     top: 40em;
     left: 40em;
 }
+button {
+
+    position: fixed;
+    
+    
+    background-color: rgb(55, 26, 214);
+    color:white;
+    height: 40px;
+    width: 150px;
+    top: 42em;
+    left: 75em;
+    
+    border-radius: 70%;
+    opacity: .5;
+}
+#btn {
+
+    position: absolute;
+    
+    
+    background-color: rgb(55, 26, 214);
+    color:white;
+    height: 40px;
+    width: 150px;
+    top: 42em;
+    left: 88em;
+    opacity: .5;
+    
+    border-radius: 70%;
+}

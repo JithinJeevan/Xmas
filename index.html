@@ -10,7 +10,7 @@
     <script defer src="./script.js"></script>
 
 </head>
-<body>
+<body onload="playAudio()">
   
     
     <div id="particles-js">
@@ -112,6 +112,14 @@
                     <p style="left: 20.7em;">ALL THE SUPPORTING STAFFS</p>
                     <p style="left: 21.7em;">ALL THE FSD B2 MEMBERS</p>
                   </div>
+                 
+                  <audio id="myAudio">
+                    <source src="./audio/jingle.mp3" type="audio/mpeg">
+                  </audio>
+        
+                  <button onclick="playAudio()" type="button">Play Audio</button>
+                  <button id="btn" onclick="pauseAudio()" type="button">Pause Audio</button>
+                
 
                   <div id="footr">
                       <p>&copy;NORKA FSD B2 TECH FEST '21 COORDINATORS</p>
