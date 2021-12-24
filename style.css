@@ -306,7 +306,7 @@ button {
     position: fixed;
     
     
-    background-color: rgb(55, 26, 214);
+    background-color: rgba(50, 16, 240, 0.418);
     color:white;
     height: 40px;
     width: 150px;
@@ -314,20 +314,20 @@ button {
     left: 75em;
     
     border-radius: 70%;
-    opacity: .5;
+    
 }
 #btn {
 
     position: absolute;
     
     
-    background-color: rgb(55, 26, 214);
+    background-color: rgba(44, 9, 245, 0.466);
     color:white;
     height: 40px;
     width: 150px;
     top: 42em;
     left: 88em;
-    opacity: .5;
+    
     
     border-radius: 70%;
 }
